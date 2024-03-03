@@ -10,7 +10,7 @@
 ### Edit Form Page: (Path for example: http://localhost:5173/editform/${id})
 ![Get Started](./public/images/FormEditPage.png)
 ### Add Users: (Path for example: http://localhost:5173/adduser)
-![Get staertd](./public/images/AddUserPage.png)
+![Get staertd](./public/images/AddUserPage%20(2).png)
 ### Login (Path for example: http://localhost:5173/login)
 ![get started](./public/images/2024-03-03%20(5).png)
 + To install formik and yup 
