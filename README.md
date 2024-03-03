@@ -1,6 +1,6 @@
 # 🎯IN THIS REPOSITORY
 ## 📝FORM VALIDATION WITH `FORMIK YUP` & CRUD Operation
-### You can see `output` in 📍[Netlify.com]()
+### You can see `output` in 📍[Netlify.com](https://formik-yup-and-crud-by-arun.netlify.app/)
 
 ***Added lazy loaders directly in conditional statement*** and ***Added Login*** 
 >src 
