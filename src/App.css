@@ -1,0 +1,11 @@
+
+.container-fluid{
+  width: 100% !important;
+}
+header{
+  position: relative;
+  background: linear-gradient(65deg,#05a982,#044b3b,#05a982,#044b3b)  !important;
+  box-shadow: 0 0 10px #0D1127 !important;
+  border-radius: 1rem;
+}
+

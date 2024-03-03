@@ -1,0 +1,95 @@
+@media screen and (max-width:767px) {
+    .ms-1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:375px) {
+    svg {
+        margin-left: 1px !important;
+    }
+}
+
+#sidebar {
+    display: flex !important;
+    margin: 0 !important;
+    position: sticky !important;
+    width: 70%;
+    min-height: 100vh;
+    overflow-y: hidden;
+    border-radius: 2rem;
+    margin-top: 1rem !important;
+    background: linear-gradient(95deg, #05a982, #044b3b, #05a982) !important;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px grey, 0 0 40px grey, 0 0 50px grey;
+}
+
+.ms-1 {
+    font-size: 1.3rem !important;
+    font-family: Philosopher;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.ms-1:hover:active {
+    color: #000000;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.ms-1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    /* Initial color for the border-bottom */
+    transition: width 0.3s ease-in-out;
+    /* Transition for width change */
+}
+
+.ms-1:hover::after {
+    width: 100%;
+    /* Expand the border-bottom on hover */
+}
+.active{
+    background-color: #009f38;
+    border-radius: 4rem;
+}
+.nav-link:hover {
+    color: rgb(0, 0, 0) !important;
+    font-weight: 1000;
+}
+
+.nav {
+    margin-top: 70px !important;
+}
+
+@media screen and (max-width:768px) {
+    .ms-1 {
+        font-size: 0.7rem !important;
+    }
+}
+
+.nav-item:hover {
+    background: #009f38;
+    border-radius: 10px;
+}
+@media screen and (min-width:1025px) {
+    .nav-item:hover {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    #sidebar {
+        height: 150vh !important;
+    }
+}

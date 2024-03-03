@@ -1,0 +1,110 @@
+.form-container{
+    flex: 1;
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+ 
+  .card{
+      box-shadow: 0 0 10px grey,0 0 30px grey,0 0 50px grey;
+      background-color: rgb(219, 255, 255);
+      transition: all 0.2 ease;
+  }
+  .card:hover{
+    transform: scale(1.009);
+    behavior: smooth;
+  }
+  .text-danger{
+    margin-top: -1rem !important;
+  }
+  .text-dark{
+    color: red !important;
+  }
+  @media screen and (max-width:426px) {
+    input label{
+        font-size: 0.8rem !important;
+    }
+    .update{
+      display: flex;
+      justify-content: center;
+      width: 10px !important;
+      margin: 0.2rem;
+      padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+    label{
+      padding: 0px !important;
+    }
+    .text-danger{
+      font-size: 0.7rem !important;
+    }
+  }
+  .update {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
+    font-size: 17px;
+    padding: 1em 2.7em;
+    font-weight: 500;
+    background: #1f2937;
+    color: white;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.6em;
+    cursor: pointer;
+  }
+  
+  .gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border-radius: 0.6em;
+    margin-top: -0.25em;
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.3)
+    );
+  }
+  
+  .label {
+    position: relative;
+    top: -1px;
+  }
+  
+  .transition {
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transition-duration: 500ms;
+    background-color: rgba(16, 185, 129, 0.6);
+    border-radius: 9999px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .update:hover .transition {
+    width: 14em;
+    height: 14em;
+  }
+  
+  .update:active {
+    transform: scale(0.97);
+  }
+  @media screen and (max-width:321px) {
+    .update{
+      display: flex;
+      justify-content: center;
+      width: 10px !important;
+      margin: 0.2rem;
+      padding: 0.5rem 2rem 0.5rem 2rem;
+    }
+    .label{
+      font-size: 0.7rem !important;
+    }
+  }
