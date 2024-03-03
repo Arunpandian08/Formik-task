@@ -3,8 +3,16 @@
 ### You can see `output` in 📍[Netlify.com](https://formik-yup-and-crud-by-arun.netlify.app/)
 
 ***Added lazy loaders directly in conditional statement*** and ***Added Login*** 
->src 
-
+### Dashboard: (Path for example: http://localhost:5173/)
+![Get Started](./public/images/Dashboard.png)
+### Edit User: (Path for example: http://localhost:5173/edituser)
+![Get started](./public/images/Edituserpage.png)
+### Edit Form Page: (Path for example: http://localhost:5173/editform/${id})
+![Get Started](./public/images/FormEditPage.png)
+### Add Users: (Path for example: http://localhost:5173/adduser)
+![Get staertd](./public/images/AddUserPage.png)
+### Login (Path for example: http://localhost:5173/login)
+![get started](./public/images/2024-03-03%20(5).png)
 + To install formik and yup 
 ```
 📎 npm install formik yup 

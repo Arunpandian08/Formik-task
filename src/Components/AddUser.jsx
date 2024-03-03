@@ -104,7 +104,7 @@ const AddUser = () => {
                                 </div>
                                 <div className='submit mt-4'>
                                     <button className="sub" type='submit'>
-                                        Update
+                                        Add
                                     </button>
                                 </div>
                             </div>
